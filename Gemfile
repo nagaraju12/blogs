@@ -1,12 +1,9 @@
 source 'https://rubygems.org'
 gem 'devise'
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
-gem 'omniauth-linkedin'
+
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
-
+gem 'pg'
 gem "paperclip"
 gem "nested_form"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

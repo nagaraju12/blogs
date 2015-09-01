@@ -1,27 +1,20 @@
 <p id="notice"><%= notice %></p>
-
 <h1>Listing Products</h1>
-
 <table>
   <thead>
-    <tr>
       <th>Name</th>
       <th>Price</th>
       <th>Dis</th>
-      <th colspan="3"></th>
-    </tr>
+      <th colspan="2"></th>
   </thead>
-
   <tbody>
     <% @products.each do |product| %>
       <tr>
         <td><%= product.name %></td>
         <td><%= product.price %></td>
         <td><%= product.dis %></td>
-        <td>
-        <p>
-      <td>  <% product.photos.each do |photo| %>
-<td><%= image_tag photo.photo %></td><br>
+      <td><% product.photos.each do |photo| %>
+<td><%= image_tag photo.photo %></td>
 <% end %>
 </td>
 <td>
@@ -35,7 +28,6 @@
   </tbody>
 </table>
 
-<br>
 
 <%= link_to 'New Product', new_product_path %>
 

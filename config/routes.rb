@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :documents
+  devise_for :users
    resources :products do
     member do
       get :download
