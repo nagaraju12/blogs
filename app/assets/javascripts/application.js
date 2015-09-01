@@ -14,5 +14,4 @@
 //= require jquery_nested_form
 //= require jquery_ujs
 //= require turbolinks
-//= require bxslider
 //= require_tree .
