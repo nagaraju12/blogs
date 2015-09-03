@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
-gem  'wkhtmltopdf-heroku'
 gem "paperclip"
 gem 'bxslider-rails'
 gem "nested_form"
